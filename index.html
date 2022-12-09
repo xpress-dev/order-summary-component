@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta lang="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Order Summary Card</title>
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to Style.css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <figure class="card">
+        <!-- Cover Image -->
+        <img
+          src="./images/illustration-hero.svg"
+          alt="Card Hero"
+          class="card__hero"
+        />
+        <!-- Padding Wrapper -->
+        <div class="padding-wrapper">
+          <!-- Card Title -->
+          <p class="card__title">Order Summary</p>
+          <!-- Card Description -->
+          <p class="card__description">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <!-- Card Pricing Div -->
+          <div class="card__pricing__div">
+            <!-- Pricing Music Icon -->
+            <img
+              src="./images/icon-music.svg"
+              alt="Music Icon"
+              class="card__music__icon"
+            />
+
+            <!-- Annual Plan and Price Div -->
+            <div class="card__price">
+              <p class="card__plan">Annual Plan</p>
+              <p class="card__price__tag">$59.99/year</p>
+            </div>
+            <!-- Change Link -->
+            <a href="#" class="card__plan__change">Change</a>
+          </div>
+          <!-- Card Proceed To Payment Button -->
+          <a href="#" class="card__proceed">Proceed to Payment</a>
+          <!-- Card Cancel Order Button -->
+          <a href="#" class="card__cancel">Cancel Order</a>
+        </div>
+      </figure>
+    </main>
+    <footer>
+      <p>
+        Coded with
+        <svg
+          class="heart"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+          />
+        </svg>
+        by
+        <a href="https://github.com/xpress-dev" class="coded-by" target="_blank"
+          >Xpress-Dev</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
